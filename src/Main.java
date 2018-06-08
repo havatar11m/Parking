@@ -5,13 +5,17 @@ public class Main {
 
     public static void main(String[] args) {
         Scanner escaner = new Scanner(System.in);
-        int filas = 5;
-        int columnas = 10;
+        int filas, columnas, menu, lleno, recaudacion;
+        filas = 5;
+        columnas = 10;
+        menu = 0;
+        lleno = 0;
+        recaudacion = 0;
         char[][] parking = new char[filas][columnas];
-        int recaudacion = 0;
-        int menu = 0;
         int[] puntos = new int[2];
-        int lleno = 0;
+
+
+
 
         iniciarParking(parking, filas, columnas);
 
